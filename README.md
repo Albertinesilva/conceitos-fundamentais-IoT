@@ -46,4 +46,16 @@ Outro ponto superimportante é a `interoperabilidade`, que é a capacidade dos d
 
 A `padronização` é crucial pra IoT poder crescer e se integrar em diferentes ambientes sem virar uma bagunça. Imagina se cada dispositivo falasse uma "língua" diferente? Seria impossível fazer tudo funcionar junto! (KRANZ, 2016).
 
+**4. Hardware e Computação Distribuída**
+   
+O `hardware da IoT` é basicamente o "corpo" dos dispositivos, e ele inclui coisas como `sensores` e `atuadores`. Os sensores são os responsáveis por coletar dados do ambiente, tipo o `DHT22`, que mede `temperatura e umidade`. Já os atuadores são os que fazem as coisas acontecerem, como `motores elétricos` que ligam ou desligam algo com base nos dados coletados (KING, 2020).
+
+Um exemplo legal disso é na `agricultura`, onde `sensores de umidade do` solo monitoram as condições e, se o solo estiver seco, acionam automaticamente os `sistemas de irrigação`. Prático, né? (BUYYA; DASTJERDI, 2016).
+
+Agora, imagina um monte desses sensores trabalhando juntos, sem fio, formando uma `rede de sensores sem fio (WSN)`. Essas redes são superúteis na agricultura inteligente, porque podem monitorar `solo, clima e umidade`, ajudando os agricultores a usar `água e fertilizantes` de forma mais eficiente. Mas não é tudo perfeito: as WSNs enfrentam desafios como `consumo de energia` (já que muitos sensores funcionam com bateria), `alcance de comunicação` (tem que pegar longe!) e `interferência` (outros sinais podem atrapalhar) (KING, 2020).
+
+Outro conceito importante é o `Edge Computing`, ou `computação na borda`. Em vez de mandar todos os dados pra nuvem, o Edge Computing processa as informações bem perto de onde elas são geradas. Isso tem várias vantagens: `reduz a latência` (o tempo de resposta), `economiza banda` (não precisa enviar tudo pra nuvem) e `melhora a segurança`, já que dados sensíveis são processados localmente (BUYYA; DASTJERDI, 2016).
+
+Isso é especialmente útil em aplicações que precisam de `respostas em tempo real`, como `veículos autônomos` (imagina se o carro tivesse que esperar a nuvem pra tomar uma decisão?) ou `sistemas de monitoramento industrial`, onde qualquer atraso pode ser crítico (KING, 2020).
+
 
