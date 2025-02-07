@@ -34,11 +34,11 @@ A `segurança` é um dos maiores desafios da IoT, e não é pra menos: tem um mo
 
 Pra proteger os dispositivos IoT, é importante seguir umas boas práticas, tipo:
 
--- **Atualizar o firmware** regularmente (sim, aquela atualização chata, mas necessária).
+- **Atualizar o firmware** regularmente (sim, aquela atualização chata, mas necessária).
 
--- Usar `autenticação forte` e `criptografia` pra garantir que só quem deve acessar consiga acessar.
+- Usar `autenticação forte` e `criptografia` pra garantir que só quem deve acessar consiga acessar.
 
--- **Segmentar a rede,** ou seja, isolar os dispositivos IoT em uma rede separada, pra evitar que um problema em um dispositivo afete todo o sistema (HEI, 2021).
+- **Segmentar a rede,** ou seja, isolar os dispositivos IoT em uma rede separada, pra evitar que um problema em um dispositivo afete todo o sistema (HEI, 2021).
 
 Um exemplo clássico de como as coisas podem dar errado foi o ataque `Mirai` em 2016. Esse malware infectou um monte de dispositivos IoT, como `câmeras de segurança` e `roteadores`, e transformou eles numa `botnet`. Essa botnet foi usada pra fazer ataques `DDoS` `gigantescos`, derrubando sites e serviços por aí. Foi um caos! (HEI, 2021).
 
