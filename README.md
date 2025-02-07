@@ -28,4 +28,22 @@ Pra você ter uma ideia de como o `MQTT` funciona, dá pra fazer um experimento 
 
 Além desses dois, tem outros protocolos que também são bem importantes, como o `AMQP` (Advanced Message Queuing Protocol) e o `LoRaWAN` (Long Range Wide Area Network). O `AMQP` é mais robusto e é muito usado em `sistemas empresariais`, enquanto o `LoRaWAN` foi feito pra `comunicação de longo alcance` e `baixo consumo de energia`, o que é perfeito pra áreas rurais ou remotas. Por exemplo, o LoRaWAN permite que sensores em fazendas ou florestas se comuniquem a distâncias de até `15 km`, sem gastar muita energia (KING, 2020).
 
+**3. Segurança e Padronização em IoT**
+   
+A `segurança` é um dos maiores desafios da IoT, e não é pra menos: tem um monte de dispositivos conectados por aí, cada um feito por um fabricante diferente, o que acaba criando umas brechas bem chatas. Os principais problemas são `vulnerabilidades nos dispositivos`, falta de `atualizações de firmware` (aquela atualização que a gente sempre deixa pra depois) e ataques de `negação de serviço`, os famosos `DDoS` (HEI, 2021).
+
+Pra proteger os dispositivos IoT, é importante seguir umas boas práticas, tipo:
+
+-- **Atualizar o firmware** regularmente (sim, aquela atualização chata, mas necessária).
+
+-- Usar `autenticação forte` e `criptografia` pra garantir que só quem deve acessar consiga acessar.
+
+-- **Segmentar a rede,** ou seja, isolar os dispositivos IoT em uma rede separada, pra evitar que um problema em um dispositivo afete todo o sistema (HEI, 2021).
+
+Um exemplo clássico de como as coisas podem dar errado foi o ataque `Mirai` em 2016. Esse malware infectou um monte de dispositivos IoT, como `câmeras de segurança` e `roteadores`, e transformou eles numa `botnet`. Essa botnet foi usada pra fazer ataques `DDoS` `gigantescos`, derrubando sites e serviços por aí. Foi um caos! (HEI, 2021).
+
+Outro ponto superimportante é a `interoperabilidade`, que é a capacidade dos dispositivos de diferentes fabricantes conseguirem se comunicar entre si. Isso é essencial pra IoT funcionar direito, afinal, ninguém quer ficar preso a um único fabricante, né? Pra facilitar essa comunicação, existem `APIs padronizadas`, como as `RESTful APIs`, `MQTT APIs` e `CoAP APIs`. Elas ajudam os dispositivos e plataformas a "conversarem" de forma eficiente (BUYYA; DASTJERDI, 2016).
+
+A `padronização` é crucial pra IoT poder crescer e se integrar em diferentes ambientes sem virar uma bagunça. Imagina se cada dispositivo falasse uma "língua" diferente? Seria impossível fazer tudo funcionar junto! (KRANZ, 2016).
+
 
