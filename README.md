@@ -4,58 +4,81 @@
 
 **Introdução**
 
-A `Internet das Coisas (IoT)` tem se tornado uma das tecnologias mais transformadoras da atualidade, conectando dispositivos físicos à internet para permitir a `coleta e troca de dados em tempo real.` Este relatório tem como objetivo explorar os `conceitos fundamentais da IoT,` desde sua arquitetura básica até os protocolos de comunicação, segurança, hardware e computação distribuída, com exemplos práticos que ilustram sua aplicação no mundo real.
+A `Internet das Coisas (IoT)` tem sido uma das tecnologias mais significativas do tempo, conectando dispositivos físicos à internet para `coleta e troca de dados em tempo real.` Este relatório visa examinar os `conceitos básicos do IoT`, a partir de sua arquitetura básica para protocolo de comunicação, segurança, hardware computação e material abrangido distribuído com exemplos práticos relacionados à realidade.
 
 **1. Conceitos Fundamentais de IoT**
-   
-A `Internet das Coisas (IoT)` é basicamente a conexão de um monte de dispositivos físicos que conseguem coletar e trocar dados entre si por meio de uma rede. Esses dispositivos podem ser desde `sensores industriais supercomplexos até aqueles` `gadgets` `domésticos` que a gente usa no dia a dia, como lâmpadas inteligentes ou assistentes virtuais (KRANZ, 2016).
 
-A ideia central da IoT é que esses dispositivos coletam `informações do ambiente` (como temperatura, umidade, movimento, etc.) e mandam esses dados para um `sistema central`, que pode ser na `nuvem.` Lá, esses dados são processados e usados para tomar decisões ou até mesmo acionar `ações automáticas`, como ligar um ar-condicionado ou ajustar a iluminação de uma casa (BUYYA; DASTJERDI, 2016).
+A ideia por trás disso é empacotar um monte desses `dispositivos` que possam coletar informações do ambiente, eles mandam esses dados para um sistema central, que em geral é um na `nuvem`. Lá, os processa e toma medidas baseadas nisso, como ligar seu ar condicionado a casa, apertar o botão das luzes e coisas do tipo. A importância disso é que ela traz `eficiência`, `automação` e `inovação` para diversos setores da sociedade. Desde saúde, ao monitorar pacientes, à agricultura, ao otimizar a colheita e o uso de água, desde as cidades inteligentes, transporte a uso de energia. 
 
-A importância da IoT hoje em dia é enorme, porque ela `traz eficiência, automação e inovação` pra vários setores. Por exemplo, na `saúde`, ela pode ajudar a monitorar pacientes remotamente; na `agricultura`, otimiza o uso de água e fertilizantes; e nas `cidades inteligentes`, melhora o trânsito e o uso de energia (KRANZ, 2016).
+A arquitetura de um sistema desse tipo geralmente possui três partes: 
 
-A arquitetura de um sistema IoT geralmente tem quatro partes principais: os `dispositivos` (como sensores e atuadores), os `gateways` (que fazem a ponte entre os dispositivos e a nuvem), a `nuvem` (onde os dados são armazenados e processados) e as `aplicações` (que são as interfaces que a gente usa, como apps ou painéis de controle) (BUYYA; DASTJERDI, 2016).
+- Os `dispositivos` que são os sensores e atuadores. 
 
-Um exemplo bem prático de IoT é o `monitoramento de tráfego em cidades` `inteligentes`. Sensores instalados nas ruas coletam informações sobre o fluxo de carros e mandam esses dados pra nuvem. Lá, eles são processados e exibidos em tempo real num `painel de controle`, permitindo que os gestores de trânsito tomem decisões rápidas pra evitar congestionamentos e melhorar o fluxo de veículos (KRANZ, 2016).
+- Os `gateways` que fazem a ponte entre os dispositivos e a `nuvem` da aplicação. 
+
+- A `cloud`, que é onde os dados são armazenados e processados. 
+
+E por fim, mas não menos importante, os `aplicativos`, que são as `interfaces` com as quais interagimos, como o `app no celular` ou `painel de controle` de uma empresa ou dona de casa. 
+
+Um exemplo de aplicação prática disso é a cidade sob monitoramento de trânsito. Sensores nas ruas coletam informações de quantos carros passam e quando e mandam isso pra nuvem. Lá, esses dados são processados, e atualizados em tempo real em um painel de controle para uma autoridade de trânsito decidir quem para onde e quando para evitar congestionamento.
 
 **2. Protocolos de Comunicação para IoT**
-   
-Os `protocolos de comunicação` são superimportantes pra garantir que os dispositivos IoT consigam trocar dados de forma eficiente. Dois dos mais famosos são o `MQTT` e o `CoAP.` O `MQTT` (Message Queuing Telemetry Transport) é baseado num modelo de `publicação/assinatura` (publish/subscribe), o que o torna leve e perfeito pra redes que não são muito estáveis. Já o `CoAP` (Constrained Application Protocol) é baseado no `REST` e foi feito pra dispositivos com poucos recursos, como sensores que funcionam com bateria e precisam economizar energia (BUYYA; DASTJERDI, 2016).
 
-Um exemplo clássico de uso do `MQTT` é o `monitoramento remoto de equipamentos industriais`, onde a comunicação precisa ser rápida e confiável. Já o `CoAP` é mais usado em `automação residencial`, tipo aqueles sistemas de casa inteligente, onde os dispositivos precisam se comunicar sem gastar muita energia (KING, 2020).
+Existem dois `protocolos` principais que são utilizados para permitir a comunicação entre dispositivos IoT. Esses protocolos são: `MQTT e CoAP`.  
 
-Pra você ter uma ideia de como o `MQTT` funciona, dá pra fazer um experimento bem simples usando um `broker MQTT`, como o Mosquitto, pra enviar dados de temperatura de um sensor (tipo um NodeMCU) pra um `painel de controle no Node-RED`. Isso mostra como o MQTT é bom pra `comunicação em tempo real` entre dispositivos IoT (BUYYA; DASTJERDI, 2016).
+- `MQTT` funciona através de um padrão de `publicação/assinatura` e é um `protocolo` perfeito em caso de redes em constante mudança e má largura de banda de `dispositivos`. 
+- `CoAP` é um protocolo de `roteamento` baseado em `REST` criado especificamente para dispositivos com falta de energia e processamento.
 
-Além desses dois, tem outros protocolos que também são bem importantes, como o `AMQP` (Advanced Message Queuing Protocol) e o `LoRaWAN` (Long Range Wide Area Network). O `AMQP` é mais robusto e é muito usado em `sistemas empresariais`, enquanto o `LoRaWAN` foi feito pra `comunicação de longo alcance` e `baixo consumo de energia`, o que é perfeito pra áreas rurais ou remotas. Por exemplo, o LoRaWAN permite que sensores em fazendas ou florestas se comuniquem a distâncias de até `15 km`, sem gastar muita energia (KING, 2020).
+**Casos de Uso:**
+
+`MQTT` : monitoramento `remoto` de `equipamentos industriais`, já que a comunicação é essencialmente em tempo real e precisa ser confiável.
+ CoAP` : automação residencial, para contornar problemas de uso de energia especialmente com a Internet das Coisas. Quando um interruptor inteligente liga ou desliga as luzes, é necessário que a rede capte instantaneamente o movimento. 
+
+**Experimento simples:**
+
+Configurar um `broker MQTT` (como o Mosquitto), para conduzir dados de temperatura de um sensor (como um NodeMCU), para ser exibido em um painel de controle dentro do `Node-RED`. Isso criará uma demonstração das capacidades de tempo real dos protocolos de IoT.
+
+**AMQP e LoRaWAN**
+
+Os protocolos `AMQP` e `LoRaWAN` são utilizados em cenários específicos de IoT:
+- AMQP (Advanced Message Queuing Protocol) Utilizado em sistemas empresariais, oferece segurança e confiabilidade na troca de mensagens.
+- LoRaWAN (Long Range Wide Area Network) é uma comunicação de longo alcance, tem baixo consumo de energia, ideal para aplicações agrícolas e monitoramento remoto
+
+**Comparação e Aplicação**
+
+O `AMQP` é mais robusto. Usado em ambientes corporativos em que a segurança da informação é importante. 
+O `LoRaWAN`, por outro lado, permite que sensores em áreas rurais transmitam dados a distâncias de até 15 km, sem a necessidade de uma potência de transmissão alta, tornando-o mais flexível
 
 **3. Segurança e Padronização em IoT**
-   
-A `segurança` é um dos maiores desafios da IoT, e não é pra menos: tem um monte de dispositivos conectados por aí, cada um feito por um fabricante diferente, o que acaba criando umas brechas bem chatas. Os principais problemas são `vulnerabilidades nos dispositivos`, falta de `atualizações de firmware` (aquela atualização que a gente sempre deixa pra depois) e ataques de `negação de serviço`, os famosos `DDoS` (HEI, 2021).
 
-Pra proteger os dispositivos IoT, é importante seguir umas boas práticas, tipo:
+A segurança é um dos maiores desafios da IoT, pois os dispositivos conectados podem se tornar vulneráveis a ataques cibernéticos. Os principais problemas da IoT em relação à segurança incluem:
+- Falta de criptografia durante a transferência de dados.
 
-- **Atualizar o firmware** regularmente (sim, aquela atualização chata, mas necessária).
+- Dispositivos desatualizados acessíveis para ataques.
 
-- Usar `autenticação forte` e `criptografia` pra garantir que só quem deve acessar consiga acessar.
+- Ataques DDoS que se aproveitam da rede dos dispositivos IoT.
 
-- **Segmentar a rede,** ou seja, isolar os dispositivos IoT em uma rede separada, pra evitar que um problema em um dispositivo afete todo o sistema (HEI, 2021).
+**Boas práticas para prevenir**
+- Implementação de criptografia de ponta a ponta.
+- Atualizações frequentes de firmware e software dos dispositivos.
+- Uso de autenticação forte para acesso aos dispositivos.
 
-Um exemplo clássico de como as coisas podem dar errado foi o ataque `Mirai` em 2016. Esse malware infectou um monte de dispositivos IoT, como `câmeras de segurança` e `roteadores`, e transformou eles numa `botnet`. Essa botnet foi usada pra fazer ataques `DDoS` `gigantescos`, derrubando sites e serviços por aí. Foi um caos! (HEI, 2021).
+**Exemplo de Ataque Real**
+Em 2016, o ataque Mirai Botnet explorou dispositivos IoT vulneráveis e criou uma botnet massiva para derrubar grandes servidores da internet.
 
-Outro ponto superimportante é a `interoperabilidade`, que é a capacidade dos dispositivos de diferentes fabricantes conseguirem se comunicar entre si. Isso é essencial pra IoT funcionar direito, afinal, ninguém quer ficar preso a um único fabricante, né? Pra facilitar essa comunicação, existem `APIs padronizadas`, como as `RESTful APIs`, `MQTT APIs` e `CoAP APIs`. Elas ajudam os dispositivos e plataformas a "conversarem" de forma eficiente (BUYYA; DASTJERDI, 2016).
+**Interoperabilidade e Padrões API**
+A interoperabilidade na IoT significa que diferentes dispositivos são capazes de se comunicar uns com os outros, independentemente do fabricante.
 
-A `padronização` é crucial pra IoT poder crescer e se integrar em diferentes ambientes sem virar uma bagunça. Imagina se cada dispositivo falasse uma "língua" diferente? Seria impossível fazer tudo funcionar junto! (KRANZ, 2016).
+**APIs Padronizadas**
+As APIs padronizadas é essencial para integrar entre dispositivos IoT e serviços que ficam na nuvem. Existem três APIs amplamente usadas:
+- RESTful APIs – Baseado em HTTP e fácil de integrar e escaláveis.
+- WebSockets – Permite a comunicação bidirecional em tempo real.
+- OPC UA (Open Platform Communications Unified Architecture) é amplamente usada na indústria para padronizar a comunicação entre máquinas.
 
 **4. Hardware e Computação Distribuída**
+
+**Hardware IoT: Sensores e Atuadores**
    
-O `hardware da IoT` é basicamente o "corpo" dos dispositivos, e ele inclui coisas como `sensores` e `atuadores`. Os sensores são os responsáveis por coletar dados do ambiente, tipo o `DHT22`, que mede `temperatura e umidade`. Já os atuadores são os que fazem as coisas acontecerem, como `motores elétricos` que ligam ou desligam algo com base nos dados coletados (KING, 2020).
 
-Um exemplo legal disso é na `agricultura`, onde `sensores de umidade do` solo monitoram as condições e, se o solo estiver seco, acionam automaticamente os `sistemas de irrigação`. Prático, né? (BUYYA; DASTJERDI, 2016).
-
-Agora, imagina um monte desses sensores trabalhando juntos, sem fio, formando uma `rede de sensores sem fio (WSN)`. Essas redes são superúteis na agricultura inteligente, porque podem monitorar `solo, clima e umidade`, ajudando os agricultores a usar `água e fertilizantes` de forma mais eficiente. Mas não é tudo perfeito: as WSNs enfrentam desafios como `consumo de energia` (já que muitos sensores funcionam com bateria), `alcance de comunicação` (tem que pegar longe!) e `interferência` (outros sinais podem atrapalhar) (KING, 2020).
-
-Outro conceito importante é o `Edge Computing`, ou `computação na borda`. Em vez de mandar todos os dados pra nuvem, o Edge Computing processa as informações bem perto de onde elas são geradas. Isso tem várias vantagens: `reduz a latência` (o tempo de resposta), `economiza banda` (não precisa enviar tudo pra nuvem) e `melhora a segurança`, já que dados sensíveis são processados localmente (BUYYA; DASTJERDI, 2016).
-
-Isso é especialmente útil em aplicações que precisam de `respostas em tempo real`, como `veículos autônomos` (imagina se o carro tivesse que esperar a nuvem pra tomar uma decisão?) ou `sistemas de monitoramento industrial`, onde qualquer atraso pode ser crítico (KING, 2020).
 
 
