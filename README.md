@@ -98,6 +98,22 @@ A segurança é um dos maiores desafios da `IoT`, pois os dispositivos conectado
 
 - Ataques `DDoS` que se aproveitam da rede dos dispositivos `IoT`.
 
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%;">
+      <img src="Segurança_com_Iot.webp" alt="Segurança com IoT" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%;">
+      A segurança é um dos maiores desafios da <code>IoT</code>, pois os dispositivos conectados podem se tornar vulneráveis a ataques <code>cibernéticos</code>. Os principais problemas da <code>IoT</code> em relação à segurança incluem:
+      <ul>
+        <li>Falta de <code>criptografia</code> durante a transferência de dados.</li>
+        <li><code>Dispositivos</code> desatualizados acessíveis para ataques.</li>
+        <li>Ataques <code>DDoS</code> que se aproveitam da rede dos dispositivos <code>IoT</code>.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 👍**Boas práticas para prevenir**
 - Implementação de `criptografia` de ponta a ponta.
 - Atualizações frequentes de `firmware` e `software` dos dispositivos.
@@ -125,8 +141,16 @@ Os `sensores` e atuadores são componentes fundamentais da `IoT`:
 - `Atuadores` que realizam ações a partir dados dos sensores, como motores elétricos, relés de controle.
 
 **Exemplo de Sensor**
-
-O `DHT11` é um dos sensores mais utilizados e simples para medir temperatura e umidade em aplicações de `automação residencial` e `sistemas agrícolas`.
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%;">
+      <img src="https://proesi.cdn.magazord.com.br/img/2024/08/blog/18672/1/postagem-full/monitoramento-de-temperatura-blog.jpg" alt="Monitoramento de Temperatura" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%;">
+      O <code>DHT11</code> é um dos sensores mais utilizados e simples para medir temperatura e umidade em aplicações de <code>automação residencial</code> e <code>sistemas agrícolas</code>.
+    </td>
+  </tr>
+</table>
 
 🌐**Redes de Sensores Sem Fio (WSN)**
 
@@ -134,7 +158,16 @@ O `DHT11` é um dos sensores mais utilizados e simples para medir temperatura e 
 
 🌾**Aplicação na Agricultura Inteligente**
 
-- Os `sensores` colocados nas plantações medem a umidade do solo e o nível de nutrientes e enviam os dados para a `nuvem` para `análise` e automaticamente acionar o sistema de irrigação
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%;">
+      <img src="https://compraco.com.br/cdn/shop/articles/out-0_2ee9272e-a3cb-469c-848f-3c453a75c307.png?v=1725643760" alt="Sensores IoT na Agricultura" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%;">
+      Os <code>sensores</code> colocados nas plantações medem a umidade do solo e o nível de nutrientes e enviam os dados para a <code>nuvem</code> para <code>análise</code> e automaticamente acionar o sistema de irrigação.
+    </td>
+  </tr>
+</table>
 
 🧗‍♂️**Desafios de Implementação**
 - `Consumo de energia` – Dispositivos devem operar com bateria por períodos longos.
@@ -143,7 +176,16 @@ O `DHT11` é um dos sensores mais utilizados e simples para medir temperatura e 
 
 **Edge Computing e sua Relação com IoT**
 
-O `Edge Computing` processa `dados` localmente, reduzindo a necessidade de enviar grandes quantidades de informações para a `nuvem`.
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%;">
+      <img src="https://recursus.com/wp-content/uploads/2022/06/grafico_v2-1024x576.png" alt="Edge Computing" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%;">
+      O <code>Edge Computing</code> processa <code>dados</code> localmente, reduzindo a necessidade de enviar grandes quantidades de informações para a <code>nuvem</code>.
+    </td>
+  </tr>
+</table>
 
 **Vantagens e Desvantagens**
 
@@ -164,14 +206,34 @@ O `Edge Computing` processa `dados` localmente, reduzindo a necessidade de envia
 
 **Conclusão:**
 
-Portanto, desde o setor `agrícola` até as cidades inteligentes, o `IoT` é uma tecnologia  impactante para os negócios e países. Para concluir, descrevi os quatro principais conceitos, a arquitetura do `IoT`, os protocolos de comunicação, os problemas de segurança e o hardware. E comparado com exemplos de aplicativos para informações detalhadas sobre como o IoT é usado. Por fim, todo o trabalho de implementação do IoT e sua falta de regulamentação.
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%;">
+      <img src="https://s2.glbimg.com/11zQeK5ktCo_MwNn4P3GQNyLupQ=/620x430/e.glbimg.com/og/ed/f/original/2018/06/19/network-782707_1280.png" alt="Tecnologia IoT" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%;">
+      Portanto, desde o setor <code>agrícola</code> até as cidades inteligentes, o <code>IoT</code> é uma tecnologia impactante para os negócios e países. Para concluir, descrevi os quatro principais conceitos, a arquitetura do <code>IoT</code>, os protocolos de comunicação, os problemas de segurança e o hardware. E comparado com exemplos de aplicativos para informações detalhadas sobre como o IoT é usado. Por fim, todo o trabalho de implementação do IoT e sua falta de regulamentação.
+    </td>
+  </tr>
+</table>
 
-## Referências:
+## Referências
 
-1. ORACLE. *Internet of Things*. Disponível em: https://www.oracle.com/br/internet-of-things/. Acesso em: 8 fev. 2025.
-2. IBM. *Internet of Things*. Disponível em: https://www.ibm.com/br-pt/topics/internet-of-things. Acesso em: 8 fev. 2025.
-3. SAP. *O que é Internet das Coisas (IoT)?*. Disponível em: https://www.sap.com/brazil/products/artificial-intelligence/what-is-iot.html. Acesso em: 7 fev. 2025.
-4. WIKIPEDIA. *Internet das coisas*. Disponível em: https://pt.wikipedia.org/wiki/Internet_das_coisas. Acesso em: 7 fev. 2025.
+### Fontes de Texto:
+1. ORACLE. *Internet of Things*. Disponível em: [https://www.oracle.com/br/internet-of-things/](https://www.oracle.com/br/internet-of-things/). Acesso em: 8 fev. 2025.  
+2. IBM. *Internet of Things*. Disponível em: [https://www.ibm.com/br-pt/topics/internet-of-things](https://www.ibm.com/br-pt/topics/internet-of-things). Acesso em: 8 fev. 2025.  
+3. SAP. *O que é Internet das Coisas (IoT)?*. Disponível em: [https://www.sap.com/brazil/products/artificial-intelligence/what-is-iot.html](https://www.sap.com/brazil/products/artificial-intelligence/what-is-iot.html). Acesso em: 7 fev. 2025.  
+4. WIKIPEDIA. *Internet das coisas*. Disponível em: [https://pt.wikipedia.org/wiki/Internet_das_coisas](https://pt.wikipedia.org/wiki/Internet_das_coisas). Acesso em: 7 fev. 2025.  
+
+### Imagens:
+1. TECNERDS. *Imagem ilustrativa sobre IoT*. Disponível em: [https://tecnerds.com.br/wp-content/uploads/2024/01/8fea6228-f617-433b-a3c8-7d82121e1226.jpeg](https://tecnerds.com.br/wp-content/uploads/2024/01/8fea6228-f617-433b-a3c8-7d82121e1226.jpeg). Acesso em: 9 fev. 2025.  
+2. DUSUN IOT. *Infográfico sobre gateway IoT*. Disponível em: [https://www.dusuniot.com/wp-content/uploads/2022/11/What-is-an-IoT-gateway-infographic-1024x707.jpg](https://www.dusuniot.com/wp-content/uploads/2022/11/What-is-an-IoT-gateway-infographic-1024x707.jpg). Acesso em: 9 fev. 2025.  
+3. GOOGLE USERCONTENT. *Diagrama de IoT*. Disponível em: [https://lh4.googleusercontent.com/GBXiUJecwe09gPSKAh9EX4c9jW6n_EY4KbXaY6WSx0J2x8WsT6Def6faVIZt7cBYexIA3tpIMFe5LVcN_4zwVZeQYxQnPaWWYdVeNFqMf6-n85bW-24KInTofyVagRtmG6vABxTI](https://lh4.googleusercontent.com/GBXiUJecwe09gPSKAh9EX4c9jW6n_EY4KbXaY6WSx0J2x8WsT6Def6faVIZt7cBYexIA3tpIMFe5LVcN_4zwVZeQYxQnPaWWYdVeNFqMf6-n85bW-24KInTofyVagRtmG6vABxTI). Acesso em: 9 fev. 2025.  
+4. PSIBORG. *Protocolos de rede IoT*. Disponível em: [https://psiborg.in/wp-content/uploads/2022/01/Iot-network-protocols.webp](https://psiborg.in/wp-content/uploads/2022/01/Iot-network-protocols.webp). Acesso em: 9 fev. 2025.  
+5. PROESI. *Monitoramento de temperatura em IoT*. Disponível em: [https://proesi.cdn.magazord.com.br/img/2024/08/blog/18672/1/postagem-full/monitoramento-de-temperatura-blog.jpg](https://proesi.cdn.magazord.com.br/img/2024/08/blog/18672/1/postagem-full/monitoramento-de-temperatura-blog.jpg). Acesso em: 9 fev. 2025.  
+6. COMPRACO. *Ilustração sobre IoT*. Disponível em: [https://compraco.com.br/cdn/shop/articles/out-0_2ee9272e-a3cb-469c-848f-3c453a75c307.png?v=1725643760](https://compraco.com.br/cdn/shop/articles/out-0_2ee9272e-a3cb-469c-848f-3c453a75c307.png?v=1725643760). Acesso em: 9 fev. 2025.  
+7. RECURSUS. *Gráfico IoT*. Disponível em: [https://recursus.com/wp-content/uploads/2022/06/grafico_v2-1024x576.png](https://recursus.com/wp-content/uploads/2022/06/grafico_v2-1024x576.png). Acesso em: 9 fev. 2025.  
+8. GLOBO. *Rede de dispositivos IoT*. Disponível em: [https://s2.glbimg.com/11zQeK5ktCo_MwNn4P3GQNyLupQ=/620x430/e.glbimg.com/og/ed/f/original/2018/06/19/network-782707_1280.png](https://s2.glbimg.com/11zQeK5ktCo_MwNn4P3GQNyLupQ=/620x430/e.glbimg.com/og/ed/f/original/2018/06/19/network-782707_1280.png). Acesso em: 9 fev. 2025.  
 
 #### 📌 Autor
 
