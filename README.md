@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-    <img src="capa.svg" alt="Capa" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
+    <img src="capa.jpg" alt="Capa" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
 </div>
 
 <div style="text-align: center;">
