@@ -137,12 +137,13 @@ O `Edge Computing` processa `dados` localmente, reduzindo a necessidade de envia
 
 Portanto, desde o setor `agrícola` até as cidades inteligentes, o `IoT` é uma tecnologia  impactante para os negócios e países. Para concluir, descrevi os quatro principais conceitos, a arquitetura do `IoT`, os protocolos de comunicação, os problemas de segurança e o hardware. E comparado com exemplos de aplicativos para informações detalhadas sobre como o IoT é usado. Por fim, todo o trabalho de implementação do IoT e sua falta de regulamentação.
 
+## Referências:
+
+1. ORACLE. *Internet of Things*. Disponível em: https://www.oracle.com/br/internet-of-things/. Acesso em: 8 fev. 2025.
+2. IBM. *Internet of Things*. Disponível em: https://www.ibm.com/br-pt/topics/internet-of-things. Acesso em: 8 fev. 2025.
+3. SAP. *O que é Internet das Coisas (IoT)?*. Disponível em: https://www.sap.com/brazil/products/artificial-intelligence/what-is-iot.html. Acesso em: 7 fev. 2025.
+4. WIKIPEDIA. *Internet das coisas*. Disponível em: https://pt.wikipedia.org/wiki/Internet_das_coisas. Acesso em: 7 fev. 2025.
+
 #### 📌 Autor
 
 👨‍💻 **Albert Silva**
-
-
-   
-
-
-
