@@ -10,7 +10,7 @@ Aprofundar o entendimento sobre os principais conceitos da `IoT`, desde sua arqu
 
 Nos últimos anos, a Internet das Coisas (IoT) se tornou uma das tecnologias mais importantes do século XXI. Agora, podemos conectar objetos do cotidiano — como eletrodomésticos, carros, termostatos e babás eletrônicas — à Internet por meio de dispositivos incorporados, possibilitando uma comunicação perfeita entre pessoas, processos e outras coisas. Por meio da computação de baixo custo, nuvem, big data, análise avançada e tecnologias móveis, coisas físicas podem compartilhar e coletar dados com o mínimo de intervenção humana. Nesse mundo hiperconectado, os sistemas digitais podem gravar, monitorar e ajustar cada interação entre itens conectados, unindo o mundo físico ao digital e fazendo-os trabalhar em conjunto [(ORACLE, 2025)](https://www.oracle.com/br/internet-of-things/).
 
-![gggg](https://tecnerds.com.br/wp-content/uploads/2024/01/8fea6228-f617-433b-a3c8-7d82121e1226.jpeg)
+![O que é a internet das coisa e como funciona](introdução_iot.jpeg.ico)
 
 Este relatório revela os fundamentos da IoT, desde a arquitetura básica até o protocolo de comunicação, segurança, desempenho e o conteúdo abordado, com exemplos práticos relacionados à realidade. a IoT não é apenas uma questão de tornar os dispositivos mais inteligentes. Acima de tudo, isso diz respeito ao processo onde ocorre permuta de informações, ocorrendo-a muito mais rapidamente. Além disso, isso muda completamente a maneira como interagimos com o mundo.
 
