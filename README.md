@@ -3,7 +3,7 @@
 </div>
 
 <div style="text-align: center;">
-    <img src="Folha_de_rosto.png" alt="Folha de Rosto" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
+    <img src="CAPA-E-FOLHA-DE-ROSTO.svg" alt="Folha de Rosto" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
 </div>
 
 <h1 align="center">🌐 Tópicos Avançados em Redes de Computadores (IOT) </h1>
@@ -36,15 +36,15 @@ Este relatório revela os fundamentos da `IoT`, desde a arquitetura básica até
   </tr>
 </table>
 
-A `arquitetura` de um sistema desse tipo geralmente possui três partes: 
+A `arquitetura` de um sistema desse tipo geralmente possui três partes:
 
-- Os `dispositivos` que são os sensores e atuadores. 
+- Os `dispositivos` que são os sensores e atuadores.
 
-- Os `gateways` que fazem a ponte entre os dispositivos e a `nuvem` da aplicação. 
+- Os `gateways` que fazem a ponte entre os dispositivos e a `nuvem` da aplicação.
 
-- A `cloud`, que é onde os dados são armazenados e processados. 
+- A `cloud`, que é onde os dados são armazenados e processados.
 
-E por fim, mas não menos importante, os `aplicativos`, que são as `interfaces` com as quais interagimos, como o `app no celular` ou `painel de controle` de uma empresa ou dona de casa. 
+E por fim, mas não menos importante, os `aplicativos`, que são as `interfaces` com as quais interagimos, como o `app no celular` ou `painel de controle` de uma empresa ou dona de casa.
 
 Um exemplo de aplicação prática disso é a cidade sob monitoramento de trânsito. `Sensores` nas ruas coletam informações de quantos carros passam e quando e mandam isso pra `nuvem`. Lá, esses dados são processados, e atualizados em tempo real em um painel de controle para uma autoridade de trânsito decidir quem para onde e quando para evitar congestionamento.
 
@@ -68,7 +68,7 @@ Um exemplo de aplicação prática disso é a cidade sob monitoramento de trâns
 📋**Casos de Uso:**
 
 `MQTT` : monitoramento `remoto` de `equipamentos industriais`, já que a comunicação é essencialmente em tempo real e precisa ser confiável.
-`CoAP` : automação residencial, para contornar problemas de uso de energia especialmente com a Internet das Coisas. Quando um interruptor inteligente liga ou desliga as luzes, é necessário que a rede capte instantaneamente o movimento. 
+`CoAP` : automação residencial, para contornar problemas de uso de energia especialmente com a Internet das Coisas. Quando um interruptor inteligente liga ou desliga as luzes, é necessário que a rede capte instantaneamente o movimento.
 
 🔬**Experimento simples:**
 
@@ -93,7 +93,7 @@ Configurar um `broker MQTT` (como o Mosquitto), para conduzir dados de temperatu
 
 ⚖️**Comparação e Aplicação**
 
-O `AMQP` é mais robusto. Usado em ambientes corporativos em que a `segurança da informação` é importante. 
+O `AMQP` é mais robusto. Usado em ambientes corporativos em que a `segurança da informação` é importante.
 O `LoRaWAN`, por outro lado, permite que `sensores` em áreas rurais transmitam dados a distâncias de até 15 km, sem a necessidade de uma potência de transmissão alta, tornando-o mais flexível
 
 🔒**3. Segurança e Padronização em IoT**
@@ -123,6 +123,7 @@ A segurança é um dos maiores desafios da `IoT`, pois os dispositivos conectado
 </table>
 
 👍**Boas práticas para prevenir**
+
 - Implementação de `criptografia` de ponta a ponta.
 - Atualizações frequentes de `firmware` e `software` dos dispositivos.
 - Uso de `autenticação` forte para acesso aos dispositivos.
@@ -135,6 +136,7 @@ A interoperabilidade na IoT significa que diferentes dispositivos são capazes d
 
 📡**APIs Padronizadas**
 As `APIs` padronizadas é essencial para integrar entre `dispositivos IoT` e serviços que ficam na `nuvem`. Existem três `APIs` amplamente usadas:
+
 - `RESTful APIs` – Baseado em `HTTP` e fácil de integrar e escaláveis.
 - `WebSockets` – Permite a comunicação `bidirecional` em `tempo real`.
 - `OPC UA` (Open Platform Communications Unified Architecture) é amplamente usada na `indústria` para padronizar a comunicação entre `máquinas`.
@@ -149,6 +151,7 @@ Os `sensores` e atuadores são componentes fundamentais da `IoT`:
 - `Atuadores` que realizam ações a partir dados dos sensores, como motores elétricos, relés de controle.
 
 **Exemplo de Sensor**
+
 <table style="width: 100%;">
   <tr>
     <td style="width: 50%;">
@@ -178,6 +181,7 @@ Os `sensores` e atuadores são componentes fundamentais da `IoT`:
 </table>
 
 🧗‍♂️**Desafios de Implementação**
+
 - `Consumo de energia` – Dispositivos devem operar com bateria por períodos longos.
 - `Interferência de transmissão` – os locais ao ar livre podem interferir na transmissão.
 - `Segurança de dados` – as informações devem ser protegidas contra acessos não autorizados.
@@ -228,20 +232,22 @@ Os `sensores` e atuadores são componentes fundamentais da `IoT`:
 ## Referências
 
 ### Fontes de Texto:
-1. ORACLE. *Internet of Things*. Disponível em: [https://www.oracle.com/br/internet-of-things/](https://www.oracle.com/br/internet-of-things/). Acesso em: 8 fev. 2025.  
-2. IBM. *Internet of Things*. Disponível em: [https://www.ibm.com/br-pt/topics/internet-of-things](https://www.ibm.com/br-pt/topics/internet-of-things). Acesso em: 8 fev. 2025.  
-3. SAP. *O que é Internet das Coisas (IoT)?*. Disponível em: [https://www.sap.com/brazil/products/artificial-intelligence/what-is-iot.html](https://www.sap.com/brazil/products/artificial-intelligence/what-is-iot.html). Acesso em: 7 fev. 2025.  
-4. WIKIPEDIA. *Internet das coisas*. Disponível em: [https://pt.wikipedia.org/wiki/Internet_das_coisas](https://pt.wikipedia.org/wiki/Internet_das_coisas). Acesso em: 7 fev. 2025.  
+
+1. ORACLE. _Internet of Things_. Disponível em: [https://www.oracle.com/br/internet-of-things/](https://www.oracle.com/br/internet-of-things/). Acesso em: 8 fev. 2025.
+2. IBM. _Internet of Things_. Disponível em: [https://www.ibm.com/br-pt/topics/internet-of-things](https://www.ibm.com/br-pt/topics/internet-of-things). Acesso em: 8 fev. 2025.
+3. SAP. _O que é Internet das Coisas (IoT)?_. Disponível em: [https://www.sap.com/brazil/products/artificial-intelligence/what-is-iot.html](https://www.sap.com/brazil/products/artificial-intelligence/what-is-iot.html). Acesso em: 7 fev. 2025.
+4. WIKIPEDIA. _Internet das coisas_. Disponível em: [https://pt.wikipedia.org/wiki/Internet_das_coisas](https://pt.wikipedia.org/wiki/Internet_das_coisas). Acesso em: 7 fev. 2025.
 
 ### Imagens:
-1. TECNERDS. *Imagem ilustrativa sobre IoT*. Disponível em: [https://tecnerds.com.br/wp-content/uploads/2024/01/8fea6228-f617-433b-a3c8-7d82121e1226.jpeg](https://tecnerds.com.br/wp-content/uploads/2024/01/8fea6228-f617-433b-a3c8-7d82121e1226.jpeg). Acesso em: 9 fev. 2025.  
-2. DUSUN IOT. *Infográfico sobre gateway IoT*. Disponível em: [https://www.dusuniot.com/wp-content/uploads/2022/11/What-is-an-IoT-gateway-infographic-1024x707.jpg](https://www.dusuniot.com/wp-content/uploads/2022/11/What-is-an-IoT-gateway-infographic-1024x707.jpg). Acesso em: 9 fev. 2025.  
-3. GOOGLE USERCONTENT. *Diagrama de IoT*. Disponível em: [https://lh4.googleusercontent.com/GBXiUJecwe09gPSKAh9EX4c9jW6n_EY4KbXaY6WSx0J2x8WsT6Def6faVIZt7cBYexIA3tpIMFe5LVcN_4zwVZeQYxQnPaWWYdVeNFqMf6-n85bW-24KInTofyVagRtmG6vABxTI](https://lh4.googleusercontent.com/GBXiUJecwe09gPSKAh9EX4c9jW6n_EY4KbXaY6WSx0J2x8WsT6Def6faVIZt7cBYexIA3tpIMFe5LVcN_4zwVZeQYxQnPaWWYdVeNFqMf6-n85bW-24KInTofyVagRtmG6vABxTI). Acesso em: 9 fev. 2025.  
-4. PSIBORG. *Protocolos de rede IoT*. Disponível em: [https://psiborg.in/wp-content/uploads/2022/01/Iot-network-protocols.webp](https://psiborg.in/wp-content/uploads/2022/01/Iot-network-protocols.webp). Acesso em: 9 fev. 2025.  
-5. PROESI. *Monitoramento de temperatura em IoT*. Disponível em: [https://proesi.cdn.magazord.com.br/img/2024/08/blog/18672/1/postagem-full/monitoramento-de-temperatura-blog.jpg](https://proesi.cdn.magazord.com.br/img/2024/08/blog/18672/1/postagem-full/monitoramento-de-temperatura-blog.jpg). Acesso em: 9 fev. 2025.  
-6. COMPRACO. *Ilustração sobre IoT*. Disponível em: [https://compraco.com.br/cdn/shop/articles/out-0_2ee9272e-a3cb-469c-848f-3c453a75c307.png?v=1725643760](https://compraco.com.br/cdn/shop/articles/out-0_2ee9272e-a3cb-469c-848f-3c453a75c307.png?v=1725643760). Acesso em: 9 fev. 2025.  
-7. RECURSUS. *Gráfico IoT*. Disponível em: [https://recursus.com/wp-content/uploads/2022/06/grafico_v2-1024x576.png](https://recursus.com/wp-content/uploads/2022/06/grafico_v2-1024x576.png). Acesso em: 9 fev. 2025.  
-8. GLOBO. *Rede de dispositivos IoT*. Disponível em: [https://s2.glbimg.com/11zQeK5ktCo_MwNn4P3GQNyLupQ=/620x430/e.glbimg.com/og/ed/f/original/2018/06/19/network-782707_1280.png](https://s2.glbimg.com/11zQeK5ktCo_MwNn4P3GQNyLupQ=/620x430/e.glbimg.com/og/ed/f/original/2018/06/19/network-782707_1280.png). Acesso em: 9 fev. 2025.  
+
+1. TECNERDS. _Imagem ilustrativa sobre IoT_. Disponível em: [https://tecnerds.com.br/wp-content/uploads/2024/01/8fea6228-f617-433b-a3c8-7d82121e1226.jpeg](https://tecnerds.com.br/wp-content/uploads/2024/01/8fea6228-f617-433b-a3c8-7d82121e1226.jpeg). Acesso em: 9 fev. 2025.
+2. DUSUN IOT. _Infográfico sobre gateway IoT_. Disponível em: [https://www.dusuniot.com/wp-content/uploads/2022/11/What-is-an-IoT-gateway-infographic-1024x707.jpg](https://www.dusuniot.com/wp-content/uploads/2022/11/What-is-an-IoT-gateway-infographic-1024x707.jpg). Acesso em: 9 fev. 2025.
+3. GOOGLE USERCONTENT. _Diagrama de IoT_. Disponível em: [https://lh4.googleusercontent.com/GBXiUJecwe09gPSKAh9EX4c9jW6n_EY4KbXaY6WSx0J2x8WsT6Def6faVIZt7cBYexIA3tpIMFe5LVcN_4zwVZeQYxQnPaWWYdVeNFqMf6-n85bW-24KInTofyVagRtmG6vABxTI](https://lh4.googleusercontent.com/GBXiUJecwe09gPSKAh9EX4c9jW6n_EY4KbXaY6WSx0J2x8WsT6Def6faVIZt7cBYexIA3tpIMFe5LVcN_4zwVZeQYxQnPaWWYdVeNFqMf6-n85bW-24KInTofyVagRtmG6vABxTI). Acesso em: 9 fev. 2025.
+4. PSIBORG. _Protocolos de rede IoT_. Disponível em: [https://psiborg.in/wp-content/uploads/2022/01/Iot-network-protocols.webp](https://psiborg.in/wp-content/uploads/2022/01/Iot-network-protocols.webp). Acesso em: 9 fev. 2025.
+5. PROESI. _Monitoramento de temperatura em IoT_. Disponível em: [https://proesi.cdn.magazord.com.br/img/2024/08/blog/18672/1/postagem-full/monitoramento-de-temperatura-blog.jpg](https://proesi.cdn.magazord.com.br/img/2024/08/blog/18672/1/postagem-full/monitoramento-de-temperatura-blog.jpg). Acesso em: 9 fev. 2025.
+6. COMPRACO. _Ilustração sobre IoT_. Disponível em: [https://compraco.com.br/cdn/shop/articles/out-0_2ee9272e-a3cb-469c-848f-3c453a75c307.png?v=1725643760](https://compraco.com.br/cdn/shop/articles/out-0_2ee9272e-a3cb-469c-848f-3c453a75c307.png?v=1725643760). Acesso em: 9 fev. 2025.
+7. RECURSUS. _Gráfico IoT_. Disponível em: [https://recursus.com/wp-content/uploads/2022/06/grafico_v2-1024x576.png](https://recursus.com/wp-content/uploads/2022/06/grafico_v2-1024x576.png). Acesso em: 9 fev. 2025.
+8. GLOBO. _Rede de dispositivos IoT_. Disponível em: [https://s2.glbimg.com/11zQeK5ktCo_MwNn4P3GQNyLupQ=/620x430/e.glbimg.com/og/ed/f/original/2018/06/19/network-782707_1280.png](https://s2.glbimg.com/11zQeK5ktCo_MwNn4P3GQNyLupQ=/620x430/e.glbimg.com/og/ed/f/original/2018/06/19/network-782707_1280.png). Acesso em: 9 fev. 2025.
 
 #### 📌 Autor
 
