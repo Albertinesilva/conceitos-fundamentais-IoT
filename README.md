@@ -1,9 +1,9 @@
 <div style="text-align: center;">
-    <img src="capa.png" alt="Capa" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
+    <img src="capa.svg" alt="Capa" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
 </div>
 
 <div style="text-align: center;">
-    <img src="folha_de_rosto.svg" alt="Folha de Rosto" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
+    <img src="folha_de_rosto.jpg" alt="Folha de Rosto" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
 </div>
 
 <h1 align="center">🌐 Tópicos Avançados em Redes de Computadores (IOT) </h1>
