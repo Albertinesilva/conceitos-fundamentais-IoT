@@ -133,22 +133,13 @@ O `Edge Computing` processa `dados` localmente, reduzindo a necessidade de envia
 
 - Em `aplicações industriais`, o `Edge Computing` pode processar dados de `sensores` localmente e acionar alertas imediatos em caso de falhas, sem depender da `nuvem`, aumentando a segurança operacional.
 
+**Conclusão:**
 
+Portanto, desde o setor `agrícola` até as cidades inteligentes, o `IoT` é uma tecnologia  impactante para os negócios e países. Para concluir, descrevi os quatro principais conceitos, a arquitetura do `IoT`, os protocolos de comunicação, os problemas de segurança e o hardware. E comparado com exemplos de aplicativos para informações detalhadas sobre como o IoT é usado. Por fim, todo o trabalho de implementação do IoT e sua falta de regulamentação.
 
+#### 📌 Autor
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+👨‍💻 **Albert Silva**
 
 
    
