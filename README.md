@@ -8,17 +8,25 @@ Aprofundar o entendimento sobre os principais conceitos da `IoT`, desde sua arqu
 
 📝**Introdução**
 
-Nos últimos anos, a Internet das Coisas (IoT) se tornou uma das tecnologias mais importantes do século XXI. Agora, podemos conectar objetos do cotidiano — como eletrodomésticos, carros, termostatos e babás eletrônicas — à Internet por meio de dispositivos incorporados, possibilitando uma comunicação perfeita entre pessoas, processos e outras coisas. Por meio da computação de baixo custo, nuvem, big data, análise avançada e tecnologias móveis, coisas físicas podem compartilhar e coletar dados com o mínimo de intervenção humana. Nesse mundo hiperconectado, os sistemas digitais podem gravar, monitorar e ajustar cada interação entre itens conectados, unindo o mundo físico ao digital e fazendo-os trabalhar em conjunto [(ORACLE, 2025)](https://www.oracle.com/br/internet-of-things/).
+<table>
+  <tr>
+    <td><img src="https://tecnerds.com.br/wp-content/uploads/2024/01/8fea6228-f617-433b-a3c8-7d82121e1226.jpeg" alt="O que é a internet das coisas e como funciona" style="width: 500%; height: 500%; position: relative;"></td>
+    <td>Nos últimos anos, a <code>Internet das Coisas (IoT)</code> se tornou uma das tecnologias mais importantes do século XXI. Agora, podemos conectar objetos do cotidiano — como eletrodomésticos, carros, termostatos e babás eletrônicas — à Internet por meio de <code>dispositivos</code> incorporados, possibilitando uma comunicação perfeita entre pessoas, processos e outras coisas. Por meio da computação de baixo custo, nuvem, big data, análise avançada e tecnologias móveis, coisas físicas podem compartilhar e coletar dados com o mínimo de intervenção humana. Nesse mundo hiperconectado, os sistemas digitais podem gravar, monitorar e ajustar cada interação entre itens conectados, unindo o mundo físico ao digital e fazendo-os trabalhar em conjunto <a href="https://www.oracle.com/br/internet-of-things/">(ORACLE, 2025)</a>.</td>
+  </tr>
+</table>
 
-![O que é a internet das coisa e como funciona](introdução_iot.jpeg.ico)
-
-Este relatório revela os fundamentos da IoT, desde a arquitetura básica até o protocolo de comunicação, segurança, desempenho e o conteúdo abordado, com exemplos práticos relacionados à realidade. a IoT não é apenas uma questão de tornar os dispositivos mais inteligentes. Acima de tudo, isso diz respeito ao processo onde ocorre permuta de informações, ocorrendo-a muito mais rapidamente. Além disso, isso muda completamente a maneira como interagimos com o mundo.
+Este relatório revela os fundamentos da `IoT`, desde a arquitetura básica até o `protocolo` de comunicação, segurança, desempenho e o conteúdo abordado, com exemplos práticos relacionados à realidade. a `IoT` não é apenas uma questão de tornar os dispositivos mais inteligentes. Acima de tudo, isso diz respeito ao processo onde ocorre permuta de informações, ocorrendo-a muito mais rapidamente. Além disso, isso muda completamente a maneira como interagimos com o mundo.
 
 💡**1. Conceitos Fundamentais de IoT**
 
-A Internet das Coisas (IoT) descreve a rede de objetos físicos incorporados a sensores, software e outras tecnologias com o objetivo de conectar e trocar dados com outros dispositivos e sistemas pela internet. Esses dispositivos variam de objetos domésticos comuns a ferramentas industriais sofisticadas [(ORACLE, 2025)](https://www.oracle.com/br/internet-of-things/).
-
-A ideia por trás disso é empacotar um monte desses `dispositivos` que possam coletar informações do ambiente, eles mandam esses dados para um sistema central, que em geral é na `nuvem`. Lá, os processa e toma medidas baseadas nisso, como ligar seu ar condicionado a casa, apertar o botão das luzes e coisas do tipo. A importância disso é que ela traz `eficiência`, `automação` e `inovação` para diversos setores da sociedade. Desde saúde, ao monitorar pacientes, à agricultura, ao otimizar a colheita e o uso de água, desde as cidades inteligentes, transporte a uso de energia. 
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 100%;"><img src="https://www.dusuniot.com/wp-content/uploads/2022/11/What-is-an-IoT-gateway-infographic-1024x707.jpg" alt="O que é a internet das coisas e como funciona" style="width: 100%; height: 100%;">
+    </td>
+    <td>A Internet das Coisas (IoT) descreve a rede de objetos físicos incorporados a sensores, software e outras tecnologias com o objetivo de conectar e trocar dados com outros dispositivos e sistemas pela internet. Esses dispositivos variam de objetos domésticos comuns a ferramentas industriais sofisticadas <a href="https://www.oracle.com/br/internet-of-things/">(ORACLE, 2025)</a>.<br>
+    A ideia por trás disso é empacotar um monte desses <code>dispositivos</code> que possam coletar informações do ambiente, eles mandam esses dados para um sistema central, que em geral é na <code>nuvem</code>. Lá, os processa e toma medidas baseadas nisso, como ligar seu ar condicionado a casa, apertar o botão das luzes e coisas do tipo. A importância disso é que ela traz <code>eficiência</code>, <code>automação</code> e <code>inovação</code> para diversos setores da sociedade. Desde saúde, ao monitorar pacientes, à agricultura, ao otimizar a colheita e o uso de água, desde as cidades inteligentes, transporte a uso de energia.</td>
+  </tr>
+</table>
 
 A `arquitetura` de um sistema desse tipo geralmente possui três partes: 
 
@@ -34,10 +42,20 @@ Um exemplo de aplicação prática disso é a cidade sob monitoramento de trâns
 
 🔗**2. Protocolos de Comunicação para IoT**
 
-Existem dois `protocolos` principais que são utilizados para permitir a comunicação entre dispositivos `IoT`. Esses protocolos são: `MQTT e CoAP`.  
-
-- `MQTT` funciona através de um padrão de `publicação/assinatura` e é um `protocolo` perfeito em caso de redes em constante mudança e má largura de banda de `dispositivos`. 
-- `CoAP` é um protocolo de `roteamento` baseado em `REST` criado especificamente para dispositivos com falta de energia e processamento.
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%;">
+      <img src="https://lh4.googleusercontent.com/GBXiUJecwe09gPSKAh9EX4c9jW6n_EY4KbXaY6WSx0J2x8WsT6Def6faVIZt7cBYexIA3tpIMFe5LVcN_4zwVZeQYxQnPaWWYdVeNFqMf6-n85bW-24KInTofyVagRtmG6vABxTI" alt="Protocolo IoT" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%;">
+      Existem dois <code>protocolos</code> principais que são utilizados para permitir a comunicação entre dispositivos <code>IoT</code>. Esses protocolos são: <code>MQTT e CoAP</code>.  
+      <ul>
+        <li><code>MQTT</code> funciona através de um padrão de <code>publicação/assinatura</code> e é um <code>protocolo</code> perfeito em caso de redes em constante mudança e má largura de banda de <code>dispositivos</code>.</li>
+        <li><code>CoAP</code> é um protocolo de <code>roteamento</code> baseado em <code>REST</code> criado especificamente para dispositivos com falta de energia e processamento.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 📋**Casos de Uso:**
 
@@ -50,11 +68,20 @@ Configurar um `broker MQTT` (como o Mosquitto), para conduzir dados de temperatu
 
 📶**AMQP e LoRaWAN**
 
-Os protocolos `AMQP` e `LoRaWAN` são utilizados em cenários específicos de IoT:
-
-- `AMQP` (Advanced Message Queuing Protocol) Utilizado em sistemas empresariais, oferece segurança e confiabilidade na troca de mensagens.
- 
-- `LoRaWAN` (Long Range Wide Area Network) é uma comunicação de longo alcance, tem baixo consumo de energia, ideal para aplicações agrícolas e monitoramento remoto
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%;">
+      <img src="https://psiborg.in/wp-content/uploads/2022/01/Iot-network-protocols.webp" alt="Protocolos de Rede IoT" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%;">
+      Os protocolos <code>AMQP</code> e <code>LoRaWAN</code> são utilizados em cenários específicos de IoT:
+      <ul>
+        <li><code>AMQP</code> (Advanced Message Queuing Protocol) Utilizado em sistemas empresariais, oferece segurança e confiabilidade na troca de mensagens.</li>
+        <li><code>LoRaWAN</code> (Long Range Wide Area Network) é uma comunicação de longo alcance, tem baixo consumo de energia, ideal para aplicações agrícolas e monitoramento remoto.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ⚖️**Comparação e Aplicação**
 
