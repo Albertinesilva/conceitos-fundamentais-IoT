@@ -1,3 +1,7 @@
+[Capa](Capa.png)
+
+[Folha de Rosto](Folha_de_rosto.png)
+
 <h1 align="center">🌐 Tópicos Avançados em Redes de Computadores (IOT) </h1>
 
 ## 📌 Objetivo da Atividade:
