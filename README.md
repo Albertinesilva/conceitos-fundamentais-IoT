@@ -1,6 +1,10 @@
-![Capa](Capa.png)
+<div style="text-align: center;">
+    <img src="Capa.png" alt="Capa" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
+</div>
 
-![Folha de Rosto](Folha_de_rosto.png)
+<div style="text-align: center;">
+    <img src="Folha_de_rosto.png" alt="Folha de Rosto" style="width: 100%; height: auto; max-width: 600px; max-height: 800px;">
+</div>
 
 <h1 align="center">🌐 Tópicos Avançados em Redes de Computadores (IOT) </h1>
 
